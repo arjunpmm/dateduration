@@ -12,12 +12,11 @@ the text containing a date range in the form <start date> to/- <end date>. The <
     Supported for years between 1960 to 2059
     
 Returns:
-month_found: boolean variable set to True if month is mentioned else False
-    datedict["start_year"] : 4 digit starting year. Type: int
-    datedict["end_year"] : 4 digit starting year. Type: int
-    datedict["total_months"]: total number of months
-    datedict["start_month"] : encoded month into an integer (ony returned if both start and end month are present in text)
-    datedict["end_month"] : encoded month into an integer (ony returned if both start and end month are present in text)
-    """
-    #regex to detect year of the form 19xx and 20xx
+
+        month_found: boolean variable set to True if month is mentioned else False
+        datedict["start_year"] : 4 digit starting year. Type: int
+        datedict["end_year"] : 4 digit starting year. Type: int
+        datedict["total_months"]: total number of months
+        datedict["start_month"] : encoded month into an integer (ony returned if both start and end month are present in text)
+        datedict["end_month"] : encoded month into an integer (ony returned if both start and end month are present in text)
     
